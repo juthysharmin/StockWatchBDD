@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(tags = "@automated", 
-            features = {"/StockWatchBDD/src/test/resources/features/Login.feature"},
+            features = {"/src/test/resources/features/Login.feature"},
             glue = {"com.tt.definations"},
             plugin = { "pretty","html:target/cucumber-reports.htlm"})
 
