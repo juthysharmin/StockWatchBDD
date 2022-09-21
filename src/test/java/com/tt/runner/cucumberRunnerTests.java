@@ -7,7 +7,6 @@ import io.cucumber.testng.CucumberOptions;
             features = {"/src/test/resources/features/Login.feature"},
             glue = {"com.tt.definations"},
             plugin = { "pretty","html:target/cucumber-reports.htlm"})
-
 public class cucumberRunnerTests extends AbstractTestNGCucumberTests{
 	
 
